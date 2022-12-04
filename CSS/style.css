@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,300;0,500;0,700;1,200&display=swap');
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    font-weight: 500px;
+}
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    font-weight: 700px;
+}
+h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    font-weight: 500px;
+
+}
+p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 200px;
+    line-height: 1.3em;
+}
+
+
+header{
+    background-color: #fff;
+    text-align: center;
+    margin-bottom: 0%;
+    color: black;
+}
+nav {
+    background-color: beige;
+    text-align: center;
+    padding: 25px;
+    margin-top: 0%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    font-weight: 200px;
+}
+nav a {
+    padding-right: 25px;
+    padding-left: 25px;
+    color: black;
+}
+nav a:hover {
+background-color: rgb(170, 169, 131);
+padding: 25px;
+}
+nav a:active {
+background-color: rgb(121, 119, 82);
+}
+.columna-1{
+    padding: 5%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 10px;
+        grid-auto-rows: minmax(100px, auto);
+}
+
+.one {
+    grid-column: 1;
+    padding-right: 40px;
+}
+
+.two {
+    grid-column: 2;
+    padding-right: 40px;
+}
+.tree {
+    grid-column: 3;
+    padding-right: 40px;
+}
+
+h2 {
+    text-align: center;
+    padding-top: 5%;
+}
+.columna-2{
+    padding: 5%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px;
+        grid-auto-rows: minmax(100px, auto);
+}
+
+.one-contactar {
+    grid-column: 1;
+    padding-right: 40px;
+}
+
+.two-contactar {
+    grid-column: 2;
+    padding-right: 40px;
+}
+.manamo-1 {
+width: 250px;
+padding: 15px;
+border:none;
+border-bottom:1px solid rgb(0, 0, 0);
+margin-bottom: 20px;
+}
+.manamo-1:focus {
+width: 350px;
+outline:none;
+border-bottom:1px solid rgb(0, 0, 0);
+}
+button{
+background-color: rgb(170, 169, 131);
+padding: 15px;
+padding-left: 50px;
+padding-right: 50px;
+border-style: none;
+}
+button:hover {
+background-color: rgb(121, 119, 82);
+}
+
